@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.todoapp.MainActivity">
+    <item
+            android:id="@+id/action_sorting"
+            android:orderInCategory="100"
+            android:title="Sort by priority"
+            app:showAsAction="never"
+            tools:onClick="sortByPriority"
+            android:checkable="false"/>
+    <item
+            android:id="@+id/sorting_date"
+            android:orderInCategory="100"
+            android:title="Sort by date"
+            app:showAsAction="never"
+            tools:onClick=""
+            android:checkable="false"/>
+    <item
+            android:id="@+id/sorting_img"
+            android:orderInCategory="100"
+            android:title="Sort by icon"
+            app:showAsAction="never"
+            tools:onClick=""
+            android:checkable="false"/>
+</menu>
